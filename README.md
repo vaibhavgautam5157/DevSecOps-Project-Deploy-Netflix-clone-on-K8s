@@ -15,21 +15,13 @@
 ### **The project aims to:**
 
 - Automate application build and deployment using Jenkins.
-
 - Integrate security scanning (SAST, dependency, and container scanning) into the CI/CD pipeline.
-
 - Containerize the application using Docker and push images to DockerHub.
-
 - Deploy the application to a Kubernetes cluster (EKS).
-
 - Implement GitOps deployment strategy using ArgoCD.
-
 - Enable system and application monitoring using Prometheus and Grafana.
-
 - Ensure continuous quality validation using SonarQube.
-
 - Provide notification mechanisms for pipeline events.
-
 - Follow DevSecOps best practices across all stages of the application lifecycle.
 
 
@@ -201,15 +193,10 @@ docker build --build-arg TMDB_V3_API_KEY=<your-api-key> -t netflix .
 
 
 - Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
-
 - After adding sonar token
-
 - Click on Apply and Save
-
 - **The Configure System option** is used in Jenkins to configure different server
-
 - **Global Tool Configuration** is used to configure different tools that we install using Plugins
-
 - We will install a sonar scanner in the tools.
 
   
@@ -856,17 +843,11 @@ To deploy an application with ArgoCD, you can follow these steps, which I'll out
 **This project successfully demonstrates the implementation of a production-style DevSecOps workflow by integrating development, security, operations, and monitoring practices into a unified pipeline.**
 
 - **The Netflix clone application was:**
-
 - Containerized using Docker
-
 - Scanned for vulnerabilities at multiple stages
-
 - Automatically built and deployed using Jenkins
-
 - Managed through GitOps using ArgoCD
-
 - Deployed on Kubernetes (EKS)
-
 - Monitored using Prometheus and Grafana
 
 **The implementation validates the effectiveness of automation, continuous integration, security-first design, and observability in modern cloud-native deployments.**
